@@ -22,10 +22,10 @@ project:
 pinout:
   # Inputs
   ui[0]: "Data_In"
-  ui[1]: "Clk"
-  ui[2]: "Rst"
-  ui[3]: "Ena"
-  ui[4]: "LeRi"
+  ui[1]: "Rst"
+  ui[2]: "Ena"
+  ui[3]: "LeRi"
+  ui[4]: "No_Used"
   ui[5]: "No_Used"
   ui[6]: "No_Used"
   ui[7]: "No_Used"
