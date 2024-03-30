@@ -1,23 +1,23 @@
-module Serie_Serie_Register(
-	input Data_In, Clk, Rst, Ena, LeRi,
-	output reg Data_Out
+module serie_serie_register(
+	input data_in, clk, rst, ena, leri,
+	output reg data_out
 );
-	reg[3:0] Data_Reg;
+	reg[3:0] data_reg;
 
 	always @*
-		if(LeRi)
-			Data_Out <= Data_Reg[3];
+		if(leri)
+			data_out <= data_reg[3];
 		else
-			Data_Out <= Data_Reg[0];
+			data_out <= data_reg[0];
 	
-	always @(negedge Rst or posedge Clk)
-		if(~Rst)
-			Data_Reg <= 4'b0;
+	always @(negedge rst or posedge clk)
+		if(~rst)
+			data_reg <= 4'b0;
 		else if(Ena)
-			if(LeRi)
-				Data_Reg <= {Data_Reg[2:0], Data_In};
+			if(leri)
+				data_reg <= {data_reg[2:0], data_in};
 			else
-				Data_Reg <= {Data_In, Data_Reg[3:1]};
+				data_reg <= {data_in, data_reg[3:1]};
 		else
-			Data_Reg <= Data_Reg;
+			data_reg <= data_reg;
 endmodule
