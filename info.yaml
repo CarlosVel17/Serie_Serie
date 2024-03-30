@@ -21,11 +21,11 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "Data_In"
-  ui[1]: "Rst"
-  ui[2]: "Ena"
-  ui[3]: "LeRi"
-  ui[4]: "No_Used"
+  ui[0]: "data_in"
+  ui[1]: "clk"
+  ui[2]: "rst"
+  ui[3]: "ena"
+  ui[4]: "leri"
   ui[5]: "No_Used"
   ui[6]: "No_Used"
   ui[7]: "No_Used"
