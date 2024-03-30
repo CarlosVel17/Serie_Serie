@@ -11,9 +11,9 @@ module Serie_Serie_Register(
 			Data_Out <= Data_Reg[0];
 	
 	always @(negedge Rst or posedge Clk)
-		if(Rst == 1'b0)
+		if(~Rst)
 			Data_Reg <= 4'b0;
-		else if(Ena == 1'b1)
+		else if(Ena)
 			if(LeRi)
 				Data_Reg <= {Data_Reg[2:0], Data_In};
 			else
