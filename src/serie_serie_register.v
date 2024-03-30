@@ -13,7 +13,7 @@ module serie_serie_register(
 	always @(negedge rst or posedge clk)
 		if(~rst)
 			data_reg <= 4'b0;
-		else if(Ena)
+		else if(ena)
 			if(leri)
 				data_reg <= {data_reg[2:0], data_in};
 			else
