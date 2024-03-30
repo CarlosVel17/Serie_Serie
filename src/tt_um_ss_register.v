@@ -17,7 +17,7 @@ module tt_um_ss_register (
 );
 
   // All output pins must be assigned. If not used, assign to 0.
-    Serie_Serie_Register c1(.in(ui_in[0]),.clock(clk),.reset(rst_n),.enable(ena),.leftright(ui_in[1]),.out(uo_out[0]))
+    Serie_Serie_Register c1(.in(ui_in[0]),.clock(clk),.reset(rst_n),.enable(ena),.leftright(ui_in[1]),.out(uo_out[0]));
     assign uio_oe = 8'b00000000;
     assign uio_out = 8'b00000000;
     assign uo_out[7:1] = 7'b0000000;
