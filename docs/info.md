@@ -24,6 +24,11 @@ Imagen Simulación:
 
 ![Captura de pantalla 2024-04-02 162240](https://github.com/CarlosVel17/Serie_Serie/assets/165471233/95d3d1ef-d223-49ae-82ec-badb4adecea2)
 
+El diagrama que se presenta a continuación ilustra el RTL del circuito generado por Quartus II, se observa las entradas rst, clk y ena como las entradas básicas del circuito. Además se observa la entrada data_in como la entrada del dato, así como la entrada leri, que indica si el corrimiento del registro se realizará hacia la derecha (right) o hacia la izquierda (left). Del mismo modo se observa que el bit de entrada leri selecciona el bit que se considerará como el bit de salida data_out.
+
+![RTL](https://github.com/CarlosVel17/Serie_Serie/assets/165471233/87f72d36-5895-42a6-a275-eaf8a13415c4)
+
+
 
 ## External hardware
 
