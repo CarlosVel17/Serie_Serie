@@ -28,6 +28,9 @@ El diagrama que se presenta a continuación ilustra el RTL del circuito generado
 
 ![RTL](https://github.com/CarlosVel17/Serie_Serie/assets/165471233/87f72d36-5895-42a6-a275-eaf8a13415c4)
 
+La conexión se propone como la siguiente imagen
+
+![Imagen_Diagrama](https://github.com/CarlosVel17/Serie_Serie/assets/165471233/e222120c-f8e9-416c-8412-4c21e2337641)
 
 
 ## External hardware
