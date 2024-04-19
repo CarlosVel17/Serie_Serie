@@ -16,23 +16,15 @@ La conexión se propone como la siguiente imagen
 
 De manera que se tienen cuatro entradas (rst, clk, ena y data_in) y una salida (data_out).
 
-## Enable GitHub actions to build the results page
+## ¿Cómo probar el circuito?
 
-- [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
+Se coloca Rst en un valor BAJO, y el Ena en un valor ALTO. El flanco del reloj clk irá actualizando el valor de 4 registros internos que realizarán el corrimiento (data_reg) con el valor del dato de entrada (data_in). Del mismo modo, la entrada de dirección (leri) asignará la dirección del corrimiento y el bit del registro interno que se mostrará en la salida (data_out).
 
-## Resources
+Banco de Prueba para Simulación en Active-HDL:
 
-- [FAQ](https://tinytapeout.com/faq/)
-- [Digital design lessons](https://tinytapeout.com/digital_design/)
-- [Learn how semiconductors work](https://tinytapeout.com/siliwiz/)
-- [Join the community](https://tinytapeout.com/discord)
-- [Build your design locally](https://docs.google.com/document/d/1aUUZ1jthRpg4QURIIyzlOaPWlmQzr-jBn3wZipVUPt4)
+![Captura de pantalla 2024-04-02 162549](https://github.com/CarlosVel17/Serie_Serie/assets/165471233/02842b52-3a53-45a8-9a2f-76a47663987e)
 
-## What next?
 
-- [Submit your design to the next shuttle](https://app.tinytapeout.com/).
-- Edit [this README](README.md) and explain your design, how it works, and how to test it.
-- Share your project on your social network of choice:
-  - LinkedIn [#tinytapeout](https://www.linkedin.com/search/results/content/?keywords=%23tinytapeout) [@TinyTapeout](https://www.linkedin.com/company/100708654/)
-  - Mastodon [#tinytapeout](https://chaos.social/tags/tinytapeout) [@matthewvenn](https://chaos.social/@matthewvenn)
-  - X (formerly Twitter) [#tinytapeout](https://twitter.com/hashtag/tinytapeout) [@matthewvenn](https://twitter.com/matthewvenn)
+Imagen Simulación:
+
+![Captura de pantalla 2024-04-02 162240](https://github.com/CarlosVel17/Serie_Serie/assets/165471233/95d3d1ef-d223-49ae-82ec-badb4adecea2)
