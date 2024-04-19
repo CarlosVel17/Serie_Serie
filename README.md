@@ -1,8 +1,8 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg)
 
-# Tiny Tapeout Verilog Project Template
+# Registro Serie-Serie
 
-- [Read the documentation for project](docs/info.md)
+![RTL](https://github.com/CarlosVel17/Serie_Serie/assets/165471233/87f72d36-5895-42a6-a275-eaf8a13415c4)
 
 ## What is Tiny Tapeout?
 
