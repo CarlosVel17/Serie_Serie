@@ -14,6 +14,8 @@ La conexión se propone como la siguiente imagen
 
 ![Imagen_Diagrama](https://github.com/CarlosVel17/Serie_Serie/assets/165471233/e222120c-f8e9-416c-8412-4c21e2337641)
 
+De manera que se tienen cuatro entradas (rst, clk, ena y data_in) y una salida (data_out).
+
 ## Enable GitHub actions to build the results page
 
 - [Enabling GitHub Pages](https://tinytapeout.com/faq/#my-github-action-is-failing-on-the-pages-part)
